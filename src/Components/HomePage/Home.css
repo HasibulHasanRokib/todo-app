@@ -1,0 +1,24 @@
+.homeBody{
+    text-align: center;
+    /* background-color: #0682FE ; */
+    background-image: linear-gradient(to right, rgb(  52, 73, 94  ), rgb(  15, 220, 241  ));
+
+    border-radius: 2px;
+    width: 800px;
+    margin:auto;
+    padding: 20px;
+    color: white;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+h1{
+    margin-bottom: 20px;
+    /* color:black */
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .homeBody {
+      width: 100%;
+      border-radius: 1px;
+    }
+  }
